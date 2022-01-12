@@ -1,0 +1,16 @@
+.border{
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.card{
+    width: 500px;
+    height: 500px;
+}
+
+.card-image{
+    width: 500px;
+    border: 2px solid green;
+    border-radius: 10px;
+    
+}
