@@ -13,11 +13,27 @@
         background-image: url(/image/achtergrond-van-metalen-traanplaat_42612-44.jpg);
     }
 
+    .dev {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .photo{
+        align-self: center;
+        width: 250px;
+        height: 100%;
+    }
+
     .border,
     .card,
     .card-image,
     section,
-    p {
+    p,
+    .colin,
+    .photo{
         border: 2px solid #540b0e;
         border-radius: 10px;
         box-shadow: 2px 2px;
@@ -80,10 +96,26 @@
     .card,
     .card-image,
     section,
-    p {
+    p,
+    .photo {
         border: 4px solid #540b0e;
         border-radius: 10px;
         box-shadow: 2px 2px;
+    }
+
+    .dev {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 40%;
+        margin-bottom: 2%;
+    }
+
+    .photo{
+        align-self: center;
+        width: 250px;
+        height: 100%;
     }
 
     .card-holder {
@@ -146,10 +178,26 @@
     .card,
     .card-image,
     section,
-    p {
+    p,
+    .photo {
         border: 2px solid #540b0e;
         border-radius: 10px;
         box-shadow: 2px 2px;
+    }
+
+    .dev {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 30%;
+        margin-top: 2%;
+        margin-bottom:  2%;
+    }
+
+    .photo{
+        align-self: center;
+        width: 250px;
+        height: 100%;
     }
 
     .card-holder {

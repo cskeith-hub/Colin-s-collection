@@ -101,6 +101,20 @@ const collection = [
     }
 ]
 
+const dev = document.createElement("div");
+    dev.className = "dev";
+    document.body.append(dev);
+
+const photo = document.createElement("img");
+photo.className = "photo";
+photo.setAttribute("src","./image/Col_img.jpg");
+dev.append(photo);
+
+const text = document.createElement("p");
+text.className = "text";
+text.innerHTML = " Colin Renkema's Collection.";
+dev.append(text);
+
 const cardHolder = document.createElement("div");
     cardHolder.className = "card-holder";
     document.body.append(cardHolder);
