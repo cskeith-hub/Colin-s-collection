@@ -7,7 +7,7 @@ const collection = [
         releaseYear: '23 november 2004',
         picture: 'https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt0d3f8b6a37a99e8d/601d9493912a490c07af5702/WoW_Ragnaros_3840x2160_enUS.jpg?auto=webp&quality=75',
         genre: [' Fantasy', 'MMO-RPG'],
-        description: 'Pick a side and pick a race and explore the World of Warcraft'
+        description: 'Explore the World of Warcraft'
     },
 
     // 2# Call of Duty
@@ -17,7 +17,7 @@ const collection = [
         releaseYear: '29 oktober 2003',
         picture: 'https://sm.ign.com/ign_nl/screenshot/default/call-of-duty-modern-warfare-twitter-facebook-instagram-going_x817.jpg',
         genre: 'First-person shooter',
-        description: 'Run around and shoot other people'
+        description: 'Run around and shoot people'
     },
 
     // 3# Rocket league
@@ -37,7 +37,7 @@ const collection = [
         releaseYear: '27 oktober 2009',
         picture: 'https://www.gamingnation.nl/wp-content/uploads/2019/10/league-of-legends.jpg',
         genre: 'Multiplayer online battle arena',
-        description: 'Get your hero and conquer the arena'
+        description: 'Conquer the arena'
     },
 
     // 5# Ark
@@ -77,7 +77,7 @@ const collection = [
         releaseYear: '11 maart 2014',
         picture: 'https://www.gamekings.tv/wp-content/uploads/nieuws20150609_hearthstone.jpg',
         genre: 'fast-paced strategy card game',
-        description: 'Card game from the world of warcraft universe'
+        description: 'World of warcraft universe'
     },
 
     // 9# Runescape
@@ -87,7 +87,7 @@ const collection = [
         releaseYear: '4 januari 2001',
         picture: 'https://cdn.cloudflare.steamstatic.com/steam/apps/1664831/capsule_616x353.jpg?t=1627293872',
         genre: ['Free-to-play', 'MMO-RPG'],
-        description: 'Fight dragons and goblins with magic and swords'
+        description: 'Quests and Monsters'
     },
 
     // 10# Starcraft
@@ -97,7 +97,7 @@ const collection = [
         releaseYear: '27 juli 2010',
         picture: 'https://pyre-media-2.s3.sa-east-1.amazonaws.com/cb5421ca-fe51-41e2-96bd-514df7f59e37maxresdefault%20(6).jpg',
         genre: 'Real-time strategy',
-        description: 'the Terrans,  the Zerg and the Protoss'
+        description: 'strategy, macro-master'
     }
 ]
 
