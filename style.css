@@ -1,24 +1,199 @@
-.border, .card, .card-image, section, p{
-    border: 2px solid green;
-    border-radius: 10px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.card{
-    width: 100%;
-    height: 100%;
+@media only screen and (max-width: 426px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #e09f3e;
+    }
+
+    .border,
+    .card,
+    .card-image,
+    section,
+    p {
+        border: 2px solid #540b0e;
+        border-radius: 10px;
+    }
+
+    .card {
+        width: 300px;
+        height: 500px;
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #335c67;
+    }
+
+    .card-image {
+        width: 90%;
+        height: 200px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    section {
+        width: 90%;
+        height: 80%;
+        margin-bottom: 2%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: #9e2a2b;
+    }
+
+    p {
+        width: 200px;
+        align-self: center;
+        margin: 2%;
+        padding: 3%;
+        background-color: #fff3b0;
+    }
+
+    .card-Info {
+        display: flex;
+        flex-direction: column;
+
+        align-self: center;
+    }
 }
 
-.card-image{
-    width: 99%;
+
+@media only screen and (min-width:426px) and (max-width: 768px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-color: #e09f3e;
+    }
+
+    .border,
+    .card,
+    .card-image,
+    section,
+    p {
+        border: 2px solid #540b0e;
+        border-radius: 10px;
+    }
+
+    .card-holder {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 500px;
+        align-items: center;
+        margin: 2%;
+        background-color: #335c67;
+    }
+
+    .card-image {
+        width: 90%;
+        height: 400px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    section {
+        width: 90%;
+        height: 100%;
+        margin-bottom: 2%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: #9e2a2b;
+    }
+
+    p {
+        width: 200px;
+        align-self: center;
+        margin: 2%;
+        padding: 3%;
+        background-color: #fff3b0;
+    }
+
+    .card-Info {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
 }
 
-section{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
+@media only screen and (min-width: 769px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-image: url(/image/achtergrond-van-metalen-traanplaat_42612-44.jpg);
+    }
 
-p{
-    background-color: rgb(179, 182, 174);
+    .border,
+    .card,
+    .card-image,
+    section,
+    p {
+        border: 2px solid #693537;
+        border-radius: 10px;
+    }
+
+    .card-holder {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 17%;
+        height: 500px;
+        align-items: center;
+        margin: 1%;
+        background-color: #7a9ea8;
+    }
+
+    .card-image {
+        width: 90%;
+        height: 400px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    section {
+        width: 90%;
+        height: 100%;
+        margin-bottom: 2%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: #cf696a;
+    }
+
+    p {
+        width: 200px;
+        align-self: center;
+        margin: 4%;
+        padding: 2%;
+        background-color: #fff3b0;
+    }
+
+    .card-Info {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
 }

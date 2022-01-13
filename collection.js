@@ -26,7 +26,7 @@ const collection = [
         developer: ['Psyonix'],
         releaseYear: '7 juli 2015',
         picture: 'https://www.internetmatters.org/wp-content/uploads/2020/11/Rocket-league-main-image.png',
-        genre: 'physics-based multiplayer-focused super acrobatic soccer-game with rocket powered cars',
+        genre: 'physics-based multiplayer',
         description: 'Football with Rocket Cars'
     },
 
@@ -43,7 +43,7 @@ const collection = [
     // 5# Ark
     {
         name: 'Ark survival evolved',
-        developer: ['Studio Wildcard', 'Virtual Basement', 'Efecto Studios', 'Instinct Games S.A.E.', 'Instinct Games', 'Abstraction'],
+        developer: 'Studio Wildcard',
         releaseYear: '2 juni 2015',
         picture: 'https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_ARKSurvivalEvolved.jpg',
         genre: 'action-adventure survival game',
@@ -66,7 +66,7 @@ const collection = [
         developer: 'Bohemia Interactive',
         releaseYear: '12 september 2013',
         picture: 'https://hwimg.nl/ARMA-III.jpg',
-        genre: ['First-person shooter', 'Vehicular combat game', 'Simulation', 'Strategy'],
+        genre: ['FPS','Simulation', 'Strategy'],
         description: 'Train with real Army Squads'
     },
 
@@ -101,12 +101,15 @@ const collection = [
     }
 ]
 
+const cardHolder = document.createElement("div");
+    cardHolder.className = "card-holder";
+    document.body.append(cardHolder);
 
 for (let i = 0; i < collection.length; i++) {
 
     const card = document.createElement("div");
     card.className = "card";
-    document.body.append(card);
+    cardHolder.append(card);
 
     const cardImage = document.createElement("img");
     cardImage.className = "card-image";
@@ -145,8 +148,6 @@ for (let i = 0; i < collection.length; i++) {
     description.className = "description";
     description.innerHTML = collection[i].description;
     cardInfo.append(description);
-
-
 }
 
 
