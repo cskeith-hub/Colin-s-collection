@@ -7,7 +7,7 @@ const collection = [
         releaseYear: '23 november 2004',
         picture: 'https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt0d3f8b6a37a99e8d/601d9493912a490c07af5702/WoW_Ragnaros_3840x2160_enUS.jpg?auto=webp&quality=75',
         genre: [' Fantasy', 'MMO-RPG'],
-        description: 'Pick a side and pick a race and life the World of Warcraft'
+        description: 'Pick a side and pick a race and explore the World of Warcraft'
     },
 
     // 2# Call of Duty
@@ -77,7 +77,7 @@ const collection = [
         releaseYear: '11 maart 2014',
         picture: 'https://www.gamekings.tv/wp-content/uploads/nieuws20150609_hearthstone.jpg',
         genre: 'fast-paced strategy card game',
-        description: 'Card game from the World of warcraft universe'
+        description: 'Card game from the world of warcraft universe'
     },
 
     // 9# Runescape
@@ -97,7 +97,7 @@ const collection = [
         releaseYear: '27 juli 2010',
         picture: 'https://pyre-media-2.s3.sa-east-1.amazonaws.com/cb5421ca-fe51-41e2-96bd-514df7f59e37maxresdefault%20(6).jpg',
         genre: 'Real-time strategy',
-        description: 'the Terrans (humans), the Zerg (a super-species of assimilated life forms) and the Protoss'
+        description: 'the Terrans,  the Zerg and the Protoss'
     }
 ]
 
