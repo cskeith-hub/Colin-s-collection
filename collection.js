@@ -6,7 +6,7 @@ const collection = [
         developer: 'Blizzard Entertainment',
         releaseYear: '23 november 2004',
         picture: 'https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt0d3f8b6a37a99e8d/601d9493912a490c07af5702/WoW_Ragnaros_3840x2160_enUS.jpg?auto=webp&quality=75',
-        genre: [' Fantasy', 'MMO-RPG'],
+        genre: ['MMO-RPG'],
         description: 'Explore the World of Warcraft'
     },
 
@@ -16,8 +16,8 @@ const collection = [
         developer: ['Activision', 'Treyarch'],
         releaseYear: '29 oktober 2003',
         picture: 'https://sm.ign.com/ign_nl/screenshot/default/call-of-duty-modern-warfare-twitter-facebook-instagram-going_x817.jpg',
-        genre: 'First-person shooter',
-        description: 'Run around and shoot people'
+        genre: 'First-Person Shooter',
+        description: 'Run around and Shoot Players'
     },
 
     // 3# Rocket league
@@ -26,18 +26,18 @@ const collection = [
         developer: ['Psyonix'],
         releaseYear: '7 juli 2015',
         picture: 'https://www.internetmatters.org/wp-content/uploads/2020/11/Rocket-league-main-image.png',
-        genre: 'physics-based multiplayer',
+        genre: 'Physics-Based Multiplayer',
         description: 'Football with Rocket Cars'
     },
 
     // 4# league of legends
     {
-        name: 'league of legends',
+        name: 'League of Legends',
         developer: 'Riot Games',
         releaseYear: '27 oktober 2009',
         picture: 'https://www.gamingnation.nl/wp-content/uploads/2019/10/league-of-legends.jpg',
-        genre: 'Multiplayer online battle arena',
-        description: 'Conquer the arena'
+        genre: 'Multiplayer Online Battle Arena',
+        description: 'Conquer the Arena'
     },
 
     // 5# Ark
@@ -46,8 +46,8 @@ const collection = [
         developer: 'Studio Wildcard',
         releaseYear: '2 juni 2015',
         picture: 'https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_ARKSurvivalEvolved.jpg',
-        genre: 'action-adventure survival game',
-        description: 'Get skills and ride Dino\'s'
+        genre: 'Action-Adventure Survival Game',
+        description: 'Get Skills and Ride Dino\'s'
     },
 
     // 6# Overwatch
@@ -56,8 +56,8 @@ const collection = [
         developer: ['Blizzard Entertainment', 'Iron Galaxy Studios'],
         releaseYear: '3 mei 2016',
         picture: 'https://hwimg.nl/Overwatch.png',
-        genre: 'First-person shooter',
-        description: 'Hero power shooter'
+        genre: 'First-Person Shooter',
+        description: 'Hero Power Shooter'
     },
 
     // 7# Arma
@@ -66,18 +66,18 @@ const collection = [
         developer: 'Bohemia Interactive',
         releaseYear: '12 september 2013',
         picture: 'https://hwimg.nl/ARMA-III.jpg',
-        genre: ['FPS','Simulation', 'Strategy'],
-        description: 'Train with real Army Squads'
+        genre: ['FPS', 'Simulation', 'Strategy'],
+        description: 'Train with Real Army Squads'
     },
 
     // 8# hearthstone
     {
-        name: 'hearthstone',
+        name: 'Hearthstone',
         developer: 'Blizzard Entertainment',
         releaseYear: '11 maart 2014',
         picture: 'https://www.gamekings.tv/wp-content/uploads/nieuws20150609_hearthstone.jpg',
-        genre: 'fast-paced strategy card game',
-        description: 'World of warcraft universe'
+        genre: 'Fast-paced Strategy Card Game',
+        description: 'World of Warcraft Universe'
     },
 
     // 9# Runescape
@@ -96,18 +96,18 @@ const collection = [
         developer: 'Blizzard Entertainment',
         releaseYear: '27 juli 2010',
         picture: 'https://pyre-media-2.s3.sa-east-1.amazonaws.com/cb5421ca-fe51-41e2-96bd-514df7f59e37maxresdefault%20(6).jpg',
-        genre: 'Real-time strategy',
-        description: 'strategy, macro-master'
+        genre: 'Real-Time Strategy',
+        description: 'Strategy, Macro-master'
     }
 ]
 
 const dev = document.createElement("div");
-    dev.className = "dev";
-    document.body.append(dev);
+dev.className = "dev";
+document.body.append(dev);
 
 const photo = document.createElement("img");
 photo.className = "photo";
-photo.setAttribute("src","./image/Col_img.jpg");
+photo.setAttribute("src", "./image/Col_img.jpg");
 dev.append(photo);
 
 const text = document.createElement("p");
@@ -116,8 +116,8 @@ text.innerHTML = " Colin Renkema's Collection.";
 dev.append(text);
 
 const cardHolder = document.createElement("div");
-    cardHolder.className = "card-holder";
-    document.body.append(cardHolder);
+cardHolder.className = "card-holder";
+document.body.append(cardHolder);
 
 for (let i = 0; i < collection.length; i++) {
 
