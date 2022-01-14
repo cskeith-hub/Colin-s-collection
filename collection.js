@@ -23,7 +23,7 @@ window.onclick = function (event) {
 const collection = [
     // 1# World of Warcraft
     {
-        name: 'World of Warcaft',
+        name: 'WoW',
         developer: 'Blizzard Entertainment',
         releaseYear: '23 november 2004',
         picture: 'https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt0d3f8b6a37a99e8d/601d9493912a490c07af5702/WoW_Ragnaros_3840x2160_enUS.jpg?auto=webp&quality=75',
@@ -59,7 +59,7 @@ const collection = [
 
     // 4# league of legends
     {
-        name: 'League of Legends',
+        name: 'LoL',
         developer: 'Riot Games',
         releaseYear: '27 oktober 2009',
         picture: 'https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/6609d2e1-62d9-4094-9cb7-26d9a7f5ba3f_2560x1440-071db7b0d39d5635f684940c1e3c4ec3',
@@ -71,11 +71,11 @@ const collection = [
 
     // 5# Ark
     {
-        name: 'Ark survival evolved',
+        name: 'Ark',
         developer: 'Studio Wildcard',
         releaseYear: '2 juni 2015',
         picture: 'https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/6609d2e1-62d9-4094-9cb7-26d9a7f5ba3f_2560x1440-071db7b0d39d5635f684940c1e3c4ec3',
-        genre: 'Survival Game',
+        genre: 'Survival',
         description: 'Translated from English-Ark: Survival Evolved is a 2017 action-adventure video game developed by Studio Wildcard. In the game, players must survive on an island filled with roaming dinosaurs and other prehistoric animals, natural hazards, and potentially hostile human players.',
         link: '<a href="https://worldofwarcraft.com/en-us/">Visit The World</a>'
 
