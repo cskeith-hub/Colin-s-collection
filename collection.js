@@ -7,7 +7,7 @@ const collection = [
         releaseYear: '23 november 2004',
         picture: 'https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt0d3f8b6a37a99e8d/601d9493912a490c07af5702/WoW_Ragnaros_3840x2160_enUS.jpg?auto=webp&quality=75',
         genre: ['MMO-RPG'],
-        description: 'Explore the World of Warcraft'
+        description: '<a href="https://worldofwarcraft.com/en-us/">Visit The World</a>'
     },
 
     // 2# Call of Duty
@@ -17,7 +17,7 @@ const collection = [
         releaseYear: '29 oktober 2003',
         picture: 'https://sm.ign.com/ign_nl/screenshot/default/call-of-duty-modern-warfare-twitter-facebook-instagram-going_x817.jpg',
         genre: 'First-Person Shooter',
-        description: 'Run around and Shoot Players'
+        description: '<a href="https://www.callofduty.com/be/nl/">Visit COD</a>'
     },
 
     // 3# Rocket league
@@ -27,7 +27,7 @@ const collection = [
         releaseYear: '7 juli 2015',
         picture: 'https://www.internetmatters.org/wp-content/uploads/2020/11/Rocket-league-main-image.png',
         genre: 'Physics-Based Multiplayer',
-        description: 'Football with Rocket Cars'
+        description: '<a href="https://www.rocketleague.com/">Visit Rocket League</a>'
     },
 
     // 4# league of legends
@@ -37,7 +37,7 @@ const collection = [
         releaseYear: '27 oktober 2009',
         picture: 'https://www.gamingnation.nl/wp-content/uploads/2019/10/league-of-legends.jpg',
         genre: 'Multiplayer Online Battle Arena',
-        description: 'Conquer the Arena'
+        description: '<a href="https://www.leagueoflegends.com/en-gb/">Visit LOL</a>'
     },
 
     // 5# Ark
@@ -47,7 +47,7 @@ const collection = [
         releaseYear: '2 juni 2015',
         picture: 'https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_ARKSurvivalEvolved.jpg',
         genre: 'Action-Adventure Survival Game',
-        description: 'Get Skills and Ride Dino\'s'
+        description: '<a href="https://ark.fandom.com/wiki/ARK_Survival_Evolved_Wiki">Visit Ark</a>'
     },
 
     // 6# Overwatch
@@ -57,7 +57,7 @@ const collection = [
         releaseYear: '3 mei 2016',
         picture: 'https://hwimg.nl/Overwatch.png',
         genre: 'First-Person Shooter',
-        description: 'Hero Power Shooter'
+        description: '<a href="https://playoverwatch.com/en-us/">Visit Overwatch</a>'
     },
 
     // 7# Arma
@@ -66,8 +66,8 @@ const collection = [
         developer: 'Bohemia Interactive',
         releaseYear: '12 september 2013',
         picture: 'https://hwimg.nl/ARMA-III.jpg',
-        genre: ['FPS', 'Simulation', 'Strategy'],
-        description: 'Train with Real Army Squads'
+        genre: 'FPS',
+        description: '<a href="https://arma3.com/">Visit Arma</a>'
     },
 
     // 8# hearthstone
@@ -76,8 +76,8 @@ const collection = [
         developer: 'Blizzard Entertainment',
         releaseYear: '11 maart 2014',
         picture: 'https://www.gamekings.tv/wp-content/uploads/nieuws20150609_hearthstone.jpg',
-        genre: 'Fast-paced Strategy Card Game',
-        description: 'World of Warcraft Universe'
+        genre: 'Fast-paced Card Game',
+        description: '<a href="https://playhearthstone.com/en-us">Visit Heartstone</a>'
     },
 
     // 9# Runescape
@@ -87,7 +87,7 @@ const collection = [
         releaseYear: '4 januari 2001',
         picture: 'https://cdn.cloudflare.steamstatic.com/steam/apps/1664831/capsule_616x353.jpg?t=1627293872',
         genre: ['Free-to-play', 'MMO-RPG'],
-        description: 'Quests and Monsters'
+        description: '<a href="https://play.runescape.com/s">Visit Runescape</a>'
     },
 
     // 10# Starcraft
@@ -97,7 +97,7 @@ const collection = [
         releaseYear: '27 juli 2010',
         picture: 'https://pyre-media-2.s3.sa-east-1.amazonaws.com/cb5421ca-fe51-41e2-96bd-514df7f59e37maxresdefault%20(6).jpg',
         genre: 'Real-Time Strategy',
-        description: 'Strategy, Macro-master'
+        description: '<a href="https://play.runescape.com/s">Visit Starcraft</a>'
     }
 ]
 
@@ -165,7 +165,6 @@ for (let i = 0; i < collection.length; i++) {
     description.innerHTML = collection[i].description;
     cardInfo.append(description);
 }
-
 
 // document.body.appendChild(card)
 //     .appendChild(cardImage)

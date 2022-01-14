@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-a{
+
+a {
+    display: block;
     text-decoration: none;
     border: none;
     color: rgb(141, 173, 50);
@@ -58,7 +60,7 @@ a{
         background-color: rgb(0, 0, 0);
     }
 
-    .brand{
+    .brand {
         margin-top: 10%;
         margin-right: 7%;
         text-align: center;
@@ -87,7 +89,7 @@ a{
         margin-top: 5%;
         margin-bottom: 5%;
         margin-right: 3%;
-        border: 2px solid rgb(170, 153, 153);
+        border: 2px solid rgb(0, 0, 0);
     }
 
     .border,
@@ -97,7 +99,7 @@ a{
     p,
     .colin,
     .photo {
-        border: 4px solid #000000;
+        border: 4px solid #696969;
         border-radius: 10px;
         box-shadow: 9px 9px #0e0d0db9;
     }
@@ -124,7 +126,7 @@ a{
 
     section {
         width: 90%;
-        height: 60%;
+        height: 80%;
         margin-bottom: 2%;
         display: flex;
         justify-content: center;
@@ -148,13 +150,17 @@ a{
         align-self: center;
     }
 
-    footer{
+    .description {
+        background-color: rgb(5, 13, 59);
+    }
+
+    footer {
         margin-right: 4%;
     }
 }
 
 
-@media only screen and (min-width:426px) and (max-width: 768px) {
+@media only screen and (min-width:426px) and (max-width: 880px) {
     body {
         width: 100vw;
         height: 100vh;
@@ -164,7 +170,6 @@ a{
     }
 
     .neonText,
-    .photo,
     p {
         animation: flicker 1.5s infinite alternate;
         color: rgb(182, 246, 3);
@@ -206,20 +211,35 @@ a{
         box-shadow: 9px 9px #0e0d0db9;
     }
 
-    .dev {
+    header {
+        width: 100%;
         display: flex;
         justify-content: center;
-        width: 100%;
-        height: 50px;
-        margin-top: 2%;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .brand {
+        margin-top: 5%;
         margin-bottom: 5%;
+        margin-right: 3%;
+        text-align: center;
+    }
+
+
+    .dev {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 80px;
+        margin-top: 10%;
+        margin-bottom: 15%;
     }
 
     .photo {
-        margin-top: 5%;
         align-self: center;
-        width: 250px;
-        height: 100%;
+        width: 25%;
+        height: 170px;
     }
 
 
@@ -243,14 +263,14 @@ a{
 
     .card-image {
         width: 90%;
-        height: 400px;
+        height: 200px;
         margin-top: 2%;
         margin-bottom: 2%;
     }
 
     section {
         width: 90%;
-        height: 100%;
+        height: 300px;
         margin-bottom: 2%;
         display: flex;
         justify-content: center;
@@ -272,9 +292,16 @@ a{
         flex-direction: column;
         align-self: center;
     }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-right: 3%;
+    }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 881px) {
     body {
         width: 100vw;
         height: 100vh;
@@ -283,7 +310,6 @@ a{
     }
 
     .neonText,
-    .photo,
     p {
         animation: flicker 1.5s infinite alternate;
         color: rgb(182, 246, 3);
@@ -330,6 +356,12 @@ a{
         box-shadow: 9px 9px rgba(0, 0, 0, 0.698);
     }
 
+    .brand {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
     .dev {
         display: flex;
         justify-content: center;
@@ -342,10 +374,14 @@ a{
 
     .photo {
         align-self: center;
-        width: 250px;
+        width: 150px;
         height: 100%;
-        border-radius: 50%;
     }
+
+    .text {
+        text-align: center;
+    }
+
 
 
     .card-holder {
@@ -358,22 +394,22 @@ a{
         display: flex;
         flex-direction: column;
         width: 17%;
-        height: 500px;
+        height: 420px;
         align-items: center;
         margin: 1%;
         background-color: #edfd05;
     }
 
     .card-image {
-        width: 90%;
-        height: 400px;
+        width: 80%;
+        height: 120px;
         margin-top: 2%;
         margin-bottom: 2%;
     }
 
     section {
         width: 90%;
-        height: 100%;
+        height: 70%;
         margin-bottom: 2%;
         display: flex;
         justify-content: center;
@@ -383,7 +419,8 @@ a{
     }
 
     p {
-        width: 200px;
+        display: block;
+        width: 120px;
         align-self: center;
         margin: 4%;
         padding: 2%;
@@ -395,4 +432,11 @@ a{
         flex-direction: column;
         align-self: center;
     }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
 }
