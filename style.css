@@ -116,8 +116,7 @@ p{
     }
     .text{
         text-align: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .card-holder{
         overflow: hidden;
@@ -125,6 +124,7 @@ p{
     .card{
         width: 100%;
         height: 100%;
+        margin-bottom: 5%;
     }
     .card-image{
         width: 100%;
@@ -155,11 +155,20 @@ p{
     }
     .description{
         background-color: yellow;
-        height: 50px;
+        height: 150px;
     }
     .link{
         background-color: #3498DB;
         height: 50px;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+    .footerText{
+        width: 100%;
+        background-color: white;
+        text-align: center;
     }
         
 
