@@ -16,7 +16,7 @@ const collection = [
         developer: ['Activision', 'Treyarch'],
         releaseYear: '29 oktober 2003',
         picture: 'https://sm.ign.com/ign_nl/screenshot/default/call-of-duty-modern-warfare-twitter-facebook-instagram-going_x817.jpg',
-        genre: 'First-Person Shooter',
+        genre: 'FPS',
         description: '<a href="https://www.callofduty.com/be/nl/">Visit COD</a>'
     },
 
@@ -26,7 +26,7 @@ const collection = [
         developer: ['Psyonix'],
         releaseYear: '7 juli 2015',
         picture: 'https://www.internetmatters.org/wp-content/uploads/2020/11/Rocket-league-main-image.png',
-        genre: 'Physics-Based Multiplayer',
+        genre: 'Multiplayer',
         description: '<a href="https://www.rocketleague.com/">Visit Rocket League</a>'
     },
 
@@ -36,7 +36,7 @@ const collection = [
         developer: 'Riot Games',
         releaseYear: '27 oktober 2009',
         picture: 'https://www.gamingnation.nl/wp-content/uploads/2019/10/league-of-legends.jpg',
-        genre: 'Multiplayer Online Battle Arena',
+        genre: 'Battle Arena',
         description: '<a href="https://www.leagueoflegends.com/en-gb/">Visit LOL</a>'
     },
 
@@ -46,7 +46,7 @@ const collection = [
         developer: 'Studio Wildcard',
         releaseYear: '2 juni 2015',
         picture: 'https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_ARKSurvivalEvolved.jpg',
-        genre: 'Action-Adventure Survival Game',
+        genre: 'Survival Game',
         description: '<a href="https://ark.fandom.com/wiki/ARK_Survival_Evolved_Wiki">Visit Ark</a>'
     },
 
@@ -56,7 +56,7 @@ const collection = [
         developer: ['Blizzard Entertainment', 'Iron Galaxy Studios'],
         releaseYear: '3 mei 2016',
         picture: 'https://hwimg.nl/Overwatch.png',
-        genre: 'First-Person Shooter',
+        genre: 'FPS',
         description: '<a href="https://playoverwatch.com/en-us/">Visit Overwatch</a>'
     },
 
@@ -76,7 +76,7 @@ const collection = [
         developer: 'Blizzard Entertainment',
         releaseYear: '11 maart 2014',
         picture: 'https://www.gamekings.tv/wp-content/uploads/nieuws20150609_hearthstone.jpg',
-        genre: 'Fast-paced Card Game',
+        genre: 'Card Game',
         description: '<a href="https://playhearthstone.com/en-us">Visit Heartstone</a>'
     },
 
@@ -86,7 +86,7 @@ const collection = [
         developer: 'Jagex',
         releaseYear: '4 januari 2001',
         picture: 'https://cdn.cloudflare.steamstatic.com/steam/apps/1664831/capsule_616x353.jpg?t=1627293872',
-        genre: ['Free-to-play', 'MMO-RPG'],
+        genre: 'MMO-RPG',
         description: '<a href="https://play.runescape.com/s">Visit Runescape</a>'
     },
 
@@ -96,7 +96,7 @@ const collection = [
         developer: 'Blizzard Entertainment',
         releaseYear: '27 juli 2010',
         picture: 'https://pyre-media-2.s3.sa-east-1.amazonaws.com/cb5421ca-fe51-41e2-96bd-514df7f59e37maxresdefault%20(6).jpg',
-        genre: 'Real-Time Strategy',
+        genre: 'RTS',
         description: '<a href="https://starcraft2.com/en-us/">Visit Starcraft</a>'
     }
 ]
