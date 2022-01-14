@@ -64,7 +64,7 @@ a {
 
     .brand {
         margin-top: 10%;
-        margin-right: 7%;
+        margin-right: 8%;
         text-align: center;
     }
 
@@ -80,7 +80,6 @@ a {
         align-self: center;
         width: 250px;
         height: 100%;
-        margin-right: 1%;
         margin-top: 5%;
 
     }
@@ -108,7 +107,7 @@ a {
     .card {
         width: 60%;
         height: 500px;
-        margin-left: 19%;
+        margin-left: 20%;
         margin-bottom: 7%;
         display: flex;
         flex-direction: column;
@@ -328,12 +327,7 @@ a {
 
     /* Flickering animation */
     @keyframes flicker {
-
-
-
         0.1% {
-
-
             box-shadow:
                 0 0 4px #fff,
                 0 0 11px #fff,
@@ -344,7 +338,6 @@ a {
                 0 0 11px #fff,
                 0 0 19px #fff,
                 0 0 40px #0fa;
-
         }
 
         20%,
@@ -359,19 +352,26 @@ a {
     .card-image,
     section,
     p,
-    .photo {
+    .photo,
+    .brand {
         border: 2px solid #707070;
         border-radius: 10px;
         box-shadow: 9px 9px rgba(0, 0, 0, 0.698);
     }
-    header{
+
+    header {
         background-image: url(/image/HairyQueasyAcouchi-max-1mb.gif);
     }
 
     .brand {
+        width: 95%;
+        margin-left: 2%;
+        margin-top: 1%;
         display: flex;
         justify-content: center;
         text-align: center;
+        background: #a6ac8c80;
+
     }
 
     .dev {
@@ -382,7 +382,6 @@ a {
         margin-top: 1%;
     }
 
-
     .photo {
         align-self: center;
         width: 150px;
@@ -392,8 +391,6 @@ a {
     .text {
         text-align: center;
     }
-
-
 
     .card-holder {
         display: flex;
