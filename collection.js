@@ -18,6 +18,7 @@ window.onclick = function (event) {
     }
 }
 
+
 // Game collection
 const collection = [
     // 1# World of Warcraft
@@ -49,7 +50,7 @@ const collection = [
         name: 'Rocket league',
         developer: ['Psyonix'],
         releaseYear: '7 juli 2015',
-        picture: 'https://www.internetmatters.org/wp-content/uploads/2020/11/Rocket-league-main-image.png',
+        picture: 'https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/6609d2e1-62d9-4094-9cb7-26d9a7f5ba3f_2560x1440-071db7b0d39d5635f684940c1e3c4ec3',
         genre: 'Multiplayer',
         description: 'Rocket League is a football-like computer game played with in-game vehicles. Rocket League is developed and published by Psyonix. In the game, players drive a vehicle with which they must try to score goals on a field that resembles a football field.',
         link: '<a href="https://worldofwarcraft.com/en-us/">Visit The World</a>'
@@ -61,7 +62,7 @@ const collection = [
         name: 'League of Legends',
         developer: 'Riot Games',
         releaseYear: '27 oktober 2009',
-        picture: 'https://static.posters.cz/image/1300/posters/league-of-legends-champions-i102252.jpg',
+        picture: 'https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/6609d2e1-62d9-4094-9cb7-26d9a7f5ba3f_2560x1440-071db7b0d39d5635f684940c1e3c4ec3',
         genre: 'Battle Arena',
         description: 'League of Legends is een computerspel ontwikkeld en uitgebracht door Riot Games in 2009. Het spel is gebaseerd op een modificatie van het spel Warcraft III. League of Legends is compatibel met het besturingssysteem Microsoft Windows en sinds 2013 ook met Mac OS X.',
         link: '<a href="https://worldofwarcraft.com/en-us/">Visit The World</a>'
@@ -73,7 +74,7 @@ const collection = [
         name: 'Ark survival evolved',
         developer: 'Studio Wildcard',
         releaseYear: '2 juni 2015',
-        picture: 'https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_ARKSurvivalEvolved.jpg',
+        picture: 'https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/6609d2e1-62d9-4094-9cb7-26d9a7f5ba3f_2560x1440-071db7b0d39d5635f684940c1e3c4ec3',
         genre: 'Survival Game',
         description: 'Translated from English-Ark: Survival Evolved is a 2017 action-adventure video game developed by Studio Wildcard. In the game, players must survive on an island filled with roaming dinosaurs and other prehistoric animals, natural hazards, and potentially hostile human players.',
         link: '<a href="https://worldofwarcraft.com/en-us/">Visit The World</a>'
@@ -85,7 +86,7 @@ const collection = [
         name: 'Overwatch',
         developer: ['Blizzard Entertainment', 'Iron Galaxy Studios'],
         releaseYear: '3 mei 2016',
-        picture: 'https://hwimg.nl/Overwatch.png',
+        picture: 'https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/6609d2e1-62d9-4094-9cb7-26d9a7f5ba3f_2560x1440-071db7b0d39d5635f684940c1e3c4ec3',
         genre: 'FPS',
         description: 'Overwatch is a multiplayer first-person shooter developed and published by Blizzard Entertainment. The game was released on May 24, 2016 for PlayStation 4, Windows, and Xbox One, and for Nintendo Switch on October 15, 2019.',
         link: '<a href="https://worldofwarcraft.com/en-us/">Visit The World</a>'
@@ -97,7 +98,7 @@ const collection = [
         name: 'Arma 3',
         developer: 'Bohemia Interactive',
         releaseYear: '12 september 2013',
-        picture: 'https://hwimg.nl/ARMA-III.jpg',
+        picture: 'https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/6609d2e1-62d9-4094-9cb7-26d9a7f5ba3f_2560x1440-071db7b0d39d5635f684940c1e3c4ec3',
         genre: 'FPS',
         description: 'ARMA 3 is a military simulation game that can be played in first-person and third-person. The game is developed by Bohemia Interactive for Microsoft Windows',
         link: '<a href="https://worldofwarcraft.com/en-us/">Visit The World</a>'
@@ -121,7 +122,7 @@ const collection = [
         name: 'Runescape',
         developer: 'Jagex',
         releaseYear: '4 januari 2001',
-        picture: 'https://cdn.cloudflare.steamstatic.com/steam/apps/1664831/capsule_616x353.jpg?t=1627293872',
+        picture: 'https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/6609d2e1-62d9-4094-9cb7-26d9a7f5ba3f_2560x1440-071db7b0d39d5635f684940c1e3c4ec3',
         genre: 'MMO-RPG',
         description: 'RuneScape is an MMORPG, by Jagex Ltd, designed by Andrew Gower and released on January 4, 2001. The fantasy game is set on the planet Gielinor where there are "gods" and "monsters". Players can trade, chat, fight or play mini-games with each other. The game is written in C++.',
         link: '<a href="https://worldofwarcraft.com/en-us/">Visit The World</a>'
@@ -151,7 +152,7 @@ creator.append(photo);
 
 const text = document.createElement("p");
 text.className = "text";
-text.innerHTML = " Colin Renkema's Collection.";
+text.innerHTML = "";
 creator.append(text);
 
 const cardHolder = document.createElement("div");
@@ -165,6 +166,21 @@ for (let i = 0; i < collection.length; i++) {
     const card = document.createElement("div");
     card.className = "card";
     cardHolder.append(card);
+
+    // function hoverEffects(cardSelected) {
+    //     cardSelected.onmouseover = function () {
+    //         cardSelected.style.transform = "scale(1.03, 1.03)";
+    //         cardSelected.style.zIndex = 100;
+    //         cardSelected.style.transition = "0.15s";
+    //         cardSelected.style.boxShadow = "0 0 0 9999px #000000b0";
+    //     };
+    //     cardSelected.onmouseout = function () {
+    //         cardSelected.style.transform = "scale(1, 1)";
+    //         cardSelected.style.zIndex = 0;
+    //         cardSelected.style.boxShadow = "0 0 0 9999px #00000000";
+    //     };
+    // }
+    // hoverEffects(card);
 
     const cardImage = document.createElement("img");
     cardImage.className = "card-image";
@@ -209,3 +225,4 @@ for (let i = 0; i < collection.length; i++) {
     link.innerHTML = collection[i].link;
     cardInfo.append(link);
 }
+
