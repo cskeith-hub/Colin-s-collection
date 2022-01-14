@@ -103,7 +103,7 @@ const collection = [
 
 const dev = document.createElement("div");
 dev.className = "dev";
-document.body.append(dev);
+
 
 const photo = document.createElement("img");
 photo.className = "photo";
@@ -117,7 +117,9 @@ dev.append(text);
 
 const cardHolder = document.createElement("div");
 cardHolder.className = "card-holder";
-document.body.append(cardHolder);
+const main = document.querySelector("main");
+main.append(dev);
+main.append(cardHolder);
 
 for (let i = 0; i < collection.length; i++) {
 
