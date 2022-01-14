@@ -222,11 +222,12 @@ p {
         background-color: brown;
 
     }
+
     .link:active {
         background-color: rgb(161, 126, 27);
         box-shadow: 0 5px #666;
         transform: translateY(4px);
-      }
+    }
 
     footer {
         display: flex;
@@ -426,11 +427,12 @@ p {
         background-color: brown;
 
     }
+
     .link:active {
         background-color: rgb(161, 126, 27);
         box-shadow: 0 5px #666;
         transform: translateY(4px);
-      }
+    }
 
     footer {
         display: flex;
@@ -446,4 +448,210 @@ p {
 }
 
 
-@media only screen and (min-width: 881px) {}
+@media only screen and (min-width: 881px) {
+    body{
+        font-size: medium;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(72, 155, 161);
+        border-radius: 10px;
+    }
+
+    .brand {
+        margin-top: 16px;
+        margin-right: 20px;
+        margin-left: 35px;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    .searchBar {
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    #findBar {
+        width: 100px;
+    }
+
+    /* .menu {
+
+    } */
+
+    /* Dropdown Button */
+    .dropbtn {
+        background-color: #ffffff00;
+        color: rgb(212, 211, 211);
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover,
+    .dropbtn:focus {
+        background-color: #297fb900;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgb(72, 155, 161);
+        border: 2px solid rgb(180, 175, 175);
+        border-radius: 10px;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 15px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #ddd
+    }
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {
+        display: block;
+    }
+
+    main {
+        display: flex;
+    }
+
+    /* .creator{
+       
+    } */
+    .photo {
+        display: none;
+        width: 100%;
+    }
+
+    .text {
+        display: none;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .card-holder {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-top: 60px;
+        overflow: hidden;
+    }
+
+    .card {
+        background-color: rgb(72, 155, 161);
+        border-radius: 10px;
+        width: 15%;
+        height: 100%;
+        margin-bottom: 5%;
+        margin-left: 3%;
+        margin-right: 2%;
+        overflow: hidden;
+    }
+
+    .card-image {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 2%;
+    }
+
+    .card-tag {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .card-genre {
+        padding-bottom: 14px;
+        background-color: brown;
+    }
+
+    p.card-genre {
+        padding: 6px;
+        width: 150px;
+    }
+
+    .card-title {
+        margin-left: 10px;
+    }
+
+    p.card-title {
+        padding-top: 6px;
+        width: 150px;
+    }
+
+    .card-Info {
+        background-color: rgba(7, 6, 7, 0.623);
+        text-align: center;
+    }
+
+    .developer {
+
+        height: 50px;
+        padding-top: 14px;
+    }
+
+    .release-year {
+
+        height: 50px;
+        padding-top: 15px;
+    }
+
+    .description {
+        height: 230px;
+        padding-top: 14px;
+    }
+
+    .link {
+        display: block;
+        height: 50px;
+        margin-top: 10px;
+        padding-top: 13px;
+        margin-bottom: 13px;
+        background-color: brown;
+
+    }
+
+    .link:active {
+        background-color: rgb(161, 126, 27);
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerText {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        padding-top: 3px;
+    }
+}

@@ -167,20 +167,20 @@ for (let i = 0; i < collection.length; i++) {
     card.className = "card";
     cardHolder.append(card);
 
-    // function hoverEffects(cardSelected) {
-    //     cardSelected.onmouseover = function () {
-    //         cardSelected.style.transform = "scale(1.03, 1.03)";
-    //         cardSelected.style.zIndex = 100;
-    //         cardSelected.style.transition = "0.15s";
-    //         cardSelected.style.boxShadow = "0 0 0 9999px #000000b0";
-    //     };
-    //     cardSelected.onmouseout = function () {
-    //         cardSelected.style.transform = "scale(1, 1)";
-    //         cardSelected.style.zIndex = 0;
-    //         cardSelected.style.boxShadow = "0 0 0 9999px #00000000";
-    //     };
-    // }
-    // hoverEffects(card);
+    function hoverEffects(cardSelected) {
+        cardSelected.onmouseover = function () {
+            cardSelected.style.transform = "scale(1.03, 1.03)";
+            cardSelected.style.zIndex = 100;
+            cardSelected.style.transition = "0.15s";
+            cardSelected.style.boxShadow = "0 0 0 9999px #000000b0";
+        };
+        cardSelected.onmouseout = function () {
+            cardSelected.style.transform = "scale(1, 1)";
+            cardSelected.style.zIndex = 0;
+            cardSelected.style.boxShadow = "0 0 0 9999px #00000000";
+        };
+    }
+    hoverEffects(card);
 
     const cardImage = document.createElement("img");
     cardImage.className = "card-image";
