@@ -7,17 +7,15 @@ a {
     display: block;
     text-decoration: none;
     border: none;
-    color: rgb(141, 173, 50);
-}
-
-a.brand{
-    background-color: #154551;
+    color: rgb(141, 172, 59);
 }
 
 @media only screen and (max-width: 426px) {
     body {
         width: 100vw;
         height: 100vh;
+        font-size: small;
+        text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -108,48 +106,47 @@ a.brand{
     }
 
     .card {
-        width: 90%;
+        width: 60%;
         height: 500px;
-        margin-left: 4%;
+        margin-left: 19%;
         margin-bottom: 7%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: #eeff00;
+        background-color: #48ff002c;
     }
 
     .card-image {
-        width: 80%;
-        height: 100%;
-        margin-top: 2%;
+        width: 90%;
+        height: 35%;
         margin-bottom: 5%;
         margin-right: 1%;
     }
 
-    section {
+    .card-main {
         width: 90%;
-        height: 80%;
+        height: 15%;
         margin-bottom: 2%;
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
-        background-color: #00e0fd;
+        background-color: #b800e657;
     }
 
     p {
         width: 200px;
         align-self: center;
-        margin: 2%;
+        margin: 4%;
         padding: 3%;
-        background-color: #000000;
+        background-color: #00000041;
     }
 
     .card-Info {
         display: flex;
         flex-direction: column;
-
+        margin-top: 5%;
         align-self: center;
     }
 
@@ -171,12 +168,14 @@ a.brand{
         background-color: rgb(0, 0, 0);
         background-image: url(/image/HairyQueasyAcouchi-max-1mb.gif);
         background-size: auto;
+        font-size: medium;
+        text-align: center;
     }
 
     .neonText,
     p {
         animation: flicker 1.5s infinite alternate;
-        color: rgb(182, 246, 3);
+        color: rgb(134, 167, 43);
     }
 
     /* Flickering animation */
@@ -212,7 +211,7 @@ a.brand{
     .photo {
         border: 4px solid #575757;
         border-radius: 10px;
-        box-shadow: 9px 9px #0e0d0db9;
+        box-shadow: 9px 9px #0e0d0da9;
     }
 
     header {
@@ -223,9 +222,9 @@ a.brand{
     }
 
     .brand {
-        margin-top: 5%;
-        margin-bottom: 5%;
-        margin-right: 3%;
+        margin-top: 3%;
+        margin-bottom: 10%;
+        margin-right: 5%;
         text-align: center;
     }
 
@@ -258,11 +257,11 @@ a.brand{
     .card {
         display: flex;
         flex-direction: column;
-        width: 40%;
-        height: 100%;
+        width: 35%;
+        height: 550px;
         align-items: center;
         margin: 2%;
-        background-color: #d0ff00;
+        background-color: #33ff002a;
     }
 
     .card-image {
@@ -272,23 +271,23 @@ a.brand{
         margin-bottom: 2%;
     }
 
-    section {
+    .card-main {
         width: 90%;
-        height: 300px;
+        height: 100px;
         margin-bottom: 2%;
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
-        background-color: #00e1ff;
+        background-color: #b800e657;
     }
 
     p {
         width: 200px;
         align-self: center;
-        margin: 2%;
+        margin: 5%;
         padding: 3%;
-        background-color: #000000;
+        background-color: #00000067;
     }
 
     .card-Info {
@@ -315,6 +314,8 @@ a.brand{
         height: 100vh;
         /* background-image: url(/image/xxl-0361.jpg); */
         background-image: url(/image/HairyQueasyAcouchi-max-1mb.gif);
+        font-size: small;
+        text-align: center;
     }
 
     .neonText,
@@ -407,7 +408,7 @@ a.brand{
         height: 420px;
         align-items: center;
         margin: 1%;
-        background-color: #edfd05;
+        background-color: #75fd053a;
     }
 
     .card-image {
@@ -417,24 +418,25 @@ a.brand{
         margin-bottom: 2%;
     }
 
-    section {
+    .card-main {
         width: 90%;
-        height: 70%;
+        height: 100px;
+        margin-top: 8%;
         margin-bottom: 2%;
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
-        background-color: #2a949e;
+        background-color: #b800e64d;
     }
 
     p {
         display: block;
         width: 130px;
         align-self: center;
-        margin: 4%;
+        margin: 5%;
         padding: 2%;
-        background-color: #000000;
+        background-color: #0000004b;
     }
 
     .card-Info {

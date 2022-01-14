@@ -97,7 +97,7 @@ const collection = [
         releaseYear: '27 juli 2010',
         picture: 'https://pyre-media-2.s3.sa-east-1.amazonaws.com/cb5421ca-fe51-41e2-96bd-514df7f59e37maxresdefault%20(6).jpg',
         genre: 'Real-Time Strategy',
-        description: '<a href="https://play.runescape.com/s">Visit Starcraft</a>'
+        description: '<a href="https://starcraft2.com/en-us/">Visit Starcraft</a>'
     }
 ]
 
@@ -148,7 +148,7 @@ for (let i = 0; i < collection.length; i++) {
 
     const cardInfo = document.createElement("div");
     cardInfo.className = "card-Info";
-    cardMain.append(cardInfo);
+    card.append(cardInfo);
 
     const developer = document.createElement("p");
     developer.className = "developer";
@@ -165,22 +165,3 @@ for (let i = 0; i < collection.length; i++) {
     description.innerHTML = collection[i].description;
     cardInfo.append(description);
 }
-
-// document.body.appendChild(card)
-//     .appendChild(cardImage)
-//     .appendChild(cardMain)
-//     .appendChild(cardGenre)
-//     .appendChild(cardTitle)
-//     .appendChild(cardInfo)
-//     .appendChild(cardFooter)
-//     .appendChild(cardLink)
-
-// const picture = document.getElementsByName("card-image");
-// const genre = document.getElementsByName("card-genre");
-// const name = document.getElementsByName("card-title");
-// const developer = document.getElementsByName("card-info");
-// const releaseYear = document.getElementsByName("card-info");
-// const description = document.getElementsByName("card-info");
-
-
-// cardLink.innerHTML = "This is card-link"; 
