@@ -206,7 +206,7 @@ a {
     section,
     p,
     .photo {
-        border: 4px solid #000000;
+        border: 4px solid #575757;
         border-radius: 10px;
         box-shadow: 9px 9px #0e0d0db9;
     }
@@ -293,6 +293,10 @@ a {
         align-self: center;
     }
 
+    .description {
+        background-color: rgb(5, 13, 59);
+    }
+
     footer {
         display: flex;
         justify-content: center;
@@ -351,7 +355,7 @@ a {
     section,
     p,
     .photo {
-        border: 2px solid #756c6c;
+        border: 2px solid #707070;
         border-radius: 10px;
         box-shadow: 9px 9px rgba(0, 0, 0, 0.698);
     }
@@ -431,6 +435,10 @@ a {
         display: flex;
         flex-direction: column;
         align-self: center;
+    }
+
+    .description {
+        background-color: rgb(5, 13, 59);
     }
 
     footer {
